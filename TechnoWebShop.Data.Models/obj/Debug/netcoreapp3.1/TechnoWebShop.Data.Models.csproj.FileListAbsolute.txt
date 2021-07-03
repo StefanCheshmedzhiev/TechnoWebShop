@@ -1,0 +1,8 @@
+C:\Users\Stefan\source\repos\TechnoWebShop\TechnoWebShop.Data.Models\bin\Debug\netcoreapp3.1\TechnoWebShop.Data.Models.deps.json
+C:\Users\Stefan\source\repos\TechnoWebShop\TechnoWebShop.Data.Models\bin\Debug\netcoreapp3.1\TechnoWebShop.Data.Models.dll
+C:\Users\Stefan\source\repos\TechnoWebShop\TechnoWebShop.Data.Models\obj\Debug\netcoreapp3.1\TechnoWebShop.Data.Models.csprojAssemblyReference.cache
+C:\Users\Stefan\source\repos\TechnoWebShop\TechnoWebShop.Data.Models\obj\Debug\netcoreapp3.1\TechnoWebShop.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Stefan\source\repos\TechnoWebShop\TechnoWebShop.Data.Models\obj\Debug\netcoreapp3.1\TechnoWebShop.Data.Models.AssemblyInfo.cs
+C:\Users\Stefan\source\repos\TechnoWebShop\TechnoWebShop.Data.Models\bin\Debug\netcoreapp3.1\TechnoWebShop.Data.Models.pdb
+C:\Users\Stefan\source\repos\TechnoWebShop\TechnoWebShop.Data.Models\obj\Debug\netcoreapp3.1\TechnoWebShop.Data.Models.dll
+C:\Users\Stefan\source\repos\TechnoWebShop\TechnoWebShop.Data.Models\obj\Debug\netcoreapp3.1\TechnoWebShop.Data.Models.pdb
