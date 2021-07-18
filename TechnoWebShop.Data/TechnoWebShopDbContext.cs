@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using System;
 using TechnoWebShop.Data.Models;
 
 namespace TechnoWebShop.Data
@@ -16,11 +17,10 @@ namespace TechnoWebShop.Data
         public DbSet<OrderStatus> OrderStatuses { get; set; }
 
         public DbSet<Receipt> Receipts { get; set; }
+
         public TechnoWebShopDbContext(DbContextOptions options) : base(options)
         {
-            
         }
-
-        
+    
     }
 }

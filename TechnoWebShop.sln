@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnoWebShop.Data.Models", "TechnoWebShop.Data.Models\TechnoWebShop.Data.Models.csproj", "{5D4E6560-0CA9-4A2B-85E6-8990DCE323C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoWebShop.Data", "TechnoWebShop.Data\TechnoWebShop.Data.csproj", "{5868F54A-927F-4C50-B52F-D6F07B52B361}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnoWebShop.Web", "TechnoWebShop.Web\TechnoWebShop.Web.csproj", "{ABE1922A-3124-4047-B6FE-E74C97A6EC9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoWebShop.Web", "TechnoWebShop.Web\TechnoWebShop.Web.csproj", "{ABE1922A-3124-4047-B6FE-E74C97A6EC9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoWebShop.Data", "TechnoWebShop.Data\TechnoWebShop.Data.csproj", "{06C06903-5D1A-458C-A355-4FB45C573A1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{5D4E6560-0CA9-4A2B-85E6-8990DCE323C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D4E6560-0CA9-4A2B-85E6-8990DCE323C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D4E6560-0CA9-4A2B-85E6-8990DCE323C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5868F54A-927F-4C50-B52F-D6F07B52B361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5868F54A-927F-4C50-B52F-D6F07B52B361}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5868F54A-927F-4C50-B52F-D6F07B52B361}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5868F54A-927F-4C50-B52F-D6F07B52B361}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ABE1922A-3124-4047-B6FE-E74C97A6EC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ABE1922A-3124-4047-B6FE-E74C97A6EC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABE1922A-3124-4047-B6FE-E74C97A6EC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABE1922A-3124-4047-B6FE-E74C97A6EC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C06903-5D1A-458C-A355-4FB45C573A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C06903-5D1A-458C-A355-4FB45C573A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C06903-5D1A-458C-A355-4FB45C573A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C06903-5D1A-458C-A355-4FB45C573A1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

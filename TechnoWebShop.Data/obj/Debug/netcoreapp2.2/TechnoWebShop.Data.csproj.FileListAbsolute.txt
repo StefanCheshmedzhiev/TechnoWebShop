@@ -1,0 +1,13 @@
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.deps.json
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\obj\Debug\netcoreapp2.2\TechnoWebShop.Data.AssemblyInfoInputs.cache
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\obj\Debug\netcoreapp2.2\TechnoWebShop.Data.AssemblyInfo.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\obj\Debug\netcoreapp2.2\TechnoWebShop.Data.csprojAssemblyReference.cache
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.runtimeconfig.json
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.runtimeconfig.dev.json
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.Models.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.Models.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\obj\Debug\netcoreapp2.2\TechnoWebShop.Data.csproj.CopyComplete
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\obj\Debug\netcoreapp2.2\TechnoWebShop.Data.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Data\obj\Debug\netcoreapp2.2\TechnoWebShop.Data.pdb

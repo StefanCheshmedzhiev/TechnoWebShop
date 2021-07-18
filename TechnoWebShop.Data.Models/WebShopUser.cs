@@ -1,13 +1,12 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.AspNetCore.Identity;
-using System;
+﻿using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
-using System.Text;
-using IdentityUser = Microsoft.AspNet.Identity.EntityFramework.IdentityUser;
+
+
+
 
 namespace TechnoWebShop.Data.Models
 {
-    public class WebShopUser : IdentityUser<string>
+    public class WebShopUser : IdentityUser
     {
         public WebShopUser()
         {
