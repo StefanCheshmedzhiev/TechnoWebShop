@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using System.Linq;
 using TechnoWebShop.Data;
 using TechnoWebShop.Data.Models;
 
@@ -20,7 +21,7 @@ namespace TechnoWebShop.Web
 
         public IConfiguration Configuration { get; }
 
-       
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<TechnoWebShopDbContext>(options =>
@@ -37,20 +38,44 @@ namespace TechnoWebShop.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
-            app.UseDeveloperExceptionPage();
-            app.UseDatabaseErrorPage();
-            app.UseHsts();
-            app.UseHttpsRedirection();
-            app.UseStaticFiles();
-
-            app.UseAuthentication();
-
-            app.UseMvc(routes =>
+            using (var serviceScope = app.ApplicationServices.CreateScope())
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
+                using (var context = serviceScope.ServiceProvider.GetRequiredService<TechnoWebShopDbContext>())
+                {
+                    context.Database.EnsureCreated();
+
+                    if (!context.Roles.Any())
+                    {
+                        context.Roles.Add(new IdentityRole
+                        {
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        });
+
+                        context.Roles.Add(new IdentityRole
+                        {
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
+
+                        context.SaveChanges();
+                    }
+                }
+                app.UseDeveloperExceptionPage();
+                app.UseDatabaseErrorPage();
+                app.UseHsts();
+                app.UseHttpsRedirection();
+                app.UseStaticFiles();
+
+                app.UseAuthentication();
+
+                app.UseMvc(routes =>
+                {
+                    routes.MapRoute(
+                        name: "default",
+                        template: "{controller=Home}/{action=Index}/{id?}");
+                });
+            }
         }
     }
 }
