@@ -1,0 +1,7 @@
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.deps.json
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.AssemblyInfoInputs.cache
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.AssemblyInfo.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.pdb

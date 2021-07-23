@@ -7,7 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnoWebShop.Data.Models",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnoWebShop.Web", "TechnoWebShop.Web\TechnoWebShop.Web.csproj", "{ABE1922A-3124-4047-B6FE-E74C97A6EC9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoWebShop.Data", "TechnoWebShop.Data\TechnoWebShop.Data.csproj", "{06C06903-5D1A-458C-A355-4FB45C573A1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnoWebShop.Data", "TechnoWebShop.Data\TechnoWebShop.Data.csproj", "{06C06903-5D1A-458C-A355-4FB45C573A1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{779D4E03-F565-447D-823F-D2F0AFEB4A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoWebShop.Services", "TechnoWebShop.Services\TechnoWebShop.Services.csproj", "{C7239968-5FDE-490F-9610-9E088F1225AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoWebShop.Web.ViewModels", "TechnoWebShop.Web.ViewModels\TechnoWebShop.Web.ViewModels.csproj", "{596EB60C-3BC5-499B-82C9-9ACB26C45A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoWebShop.Web.InputModels", "TechnoWebShop.Web.InputModels\TechnoWebShop.Web.InputModels.csproj", "{BCDB1C1E-46B9-4E1E-9E25-8AE31F428D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnoWebShop.Services.Models", "TechnoWebShop.Services.Models\TechnoWebShop.Services.Models.csproj", "{B365DB09-DED6-4CED-90B7-83B15FB3C654}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +37,29 @@ Global
 		{06C06903-5D1A-458C-A355-4FB45C573A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C06903-5D1A-458C-A355-4FB45C573A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C06903-5D1A-458C-A355-4FB45C573A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7239968-5FDE-490F-9610-9E088F1225AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7239968-5FDE-490F-9610-9E088F1225AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7239968-5FDE-490F-9610-9E088F1225AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7239968-5FDE-490F-9610-9E088F1225AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596EB60C-3BC5-499B-82C9-9ACB26C45A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596EB60C-3BC5-499B-82C9-9ACB26C45A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596EB60C-3BC5-499B-82C9-9ACB26C45A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596EB60C-3BC5-499B-82C9-9ACB26C45A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDB1C1E-46B9-4E1E-9E25-8AE31F428D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDB1C1E-46B9-4E1E-9E25-8AE31F428D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDB1C1E-46B9-4E1E-9E25-8AE31F428D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDB1C1E-46B9-4E1E-9E25-8AE31F428D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B365DB09-DED6-4CED-90B7-83B15FB3C654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B365DB09-DED6-4CED-90B7-83B15FB3C654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B365DB09-DED6-4CED-90B7-83B15FB3C654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B365DB09-DED6-4CED-90B7-83B15FB3C654}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7239968-5FDE-490F-9610-9E088F1225AE} = {779D4E03-F565-447D-823F-D2F0AFEB4A02}
+		{B365DB09-DED6-4CED-90B7-83B15FB3C654} = {779D4E03-F565-447D-823F-D2F0AFEB4A02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8527E490-F27A-4EC0-AE19-F841632F8072}

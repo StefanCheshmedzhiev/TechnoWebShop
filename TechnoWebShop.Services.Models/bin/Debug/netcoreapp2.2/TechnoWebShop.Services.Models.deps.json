@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "TechnoWebShop.Services.Models/1.0.0": {
+        "runtime": {
+          "TechnoWebShop.Services.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TechnoWebShop.Services.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

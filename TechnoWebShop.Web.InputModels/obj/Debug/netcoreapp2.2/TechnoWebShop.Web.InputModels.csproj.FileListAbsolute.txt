@@ -1,0 +1,7 @@
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.deps.json
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.AssemblyInfoInputs.cache
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.AssemblyInfo.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.pdb

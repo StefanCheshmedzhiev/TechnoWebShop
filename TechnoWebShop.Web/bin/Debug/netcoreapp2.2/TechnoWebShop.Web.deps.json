@@ -28,7 +28,9 @@
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.4",
-          "TechnoWebShop.Data": "1.0.0"
+          "TechnoWebShop.Data": "1.0.0",
+          "TechnoWebShop.Services": "1.0.0",
+          "TechnoWebShop.Web.InputModels": "1.0.0"
         },
         "runtime": {
           "TechnoWebShop.Web.dll": {}
@@ -605,6 +607,37 @@
         },
         "compile": {
           "TechnoWebShop.Data.Models.dll": {}
+        }
+      },
+      "TechnoWebShop.Services/1.0.0": {
+        "dependencies": {
+          "TechnoWebShop.Data": "1.0.0",
+          "TechnoWebShop.Services.Models": "1.0.0"
+        },
+        "runtime": {
+          "TechnoWebShop.Services.dll": {}
+        },
+        "compile": {
+          "TechnoWebShop.Services.dll": {}
+        }
+      },
+      "TechnoWebShop.Services.Models/1.0.0": {
+        "runtime": {
+          "TechnoWebShop.Services.Models.dll": {}
+        },
+        "compile": {
+          "TechnoWebShop.Services.Models.dll": {}
+        }
+      },
+      "TechnoWebShop.Web.InputModels/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0"
+        },
+        "runtime": {
+          "TechnoWebShop.Web.InputModels.dll": {}
+        },
+        "compile": {
+          "TechnoWebShop.Web.InputModels.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3944,6 +3977,21 @@
       "sha512": ""
     },
     "TechnoWebShop.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TechnoWebShop.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TechnoWebShop.Services.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TechnoWebShop.Web.InputModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
