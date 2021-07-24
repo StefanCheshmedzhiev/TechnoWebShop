@@ -17,11 +17,7 @@
     <ProjectReference Include="..\TechnoWebShop.Data\TechnoWebShop.Data.csproj" />
     <ProjectReference Include="..\TechnoWebShop.Services\TechnoWebShop.Services.csproj" />
     <ProjectReference Include="..\TechnoWebShop.Web.InputModels\TechnoWebShop.Web.InputModels.csproj" />
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <Folder Include="Areas\Administration\Views\" />
+    <ProjectReference Include="..\TechnoWebShop.Web.ViewModels\TechnoWebShop.Web.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

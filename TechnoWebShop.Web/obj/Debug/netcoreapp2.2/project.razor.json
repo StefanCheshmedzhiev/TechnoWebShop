@@ -1872,6 +1872,11 @@
   "RootNamespace": "TechnoWebShop.Web",
   "Documents": [
     {
+      "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Administration\\Views\\Product\\Type\\Create.cshtml",
+      "TargetPath": "Areas\\Administration\\Views\\Product\\Type\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -1879,6 +1884,11 @@
     {
       "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Administration\\Views\\Product\\Create.cshtml",
+      "TargetPath": "Areas\\Administration\\Views\\Product\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

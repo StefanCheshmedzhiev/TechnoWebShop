@@ -30,7 +30,8 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.4",
           "TechnoWebShop.Data": "1.0.0",
           "TechnoWebShop.Services": "1.0.0",
-          "TechnoWebShop.Web.InputModels": "1.0.0"
+          "TechnoWebShop.Web.InputModels": "1.0.0",
+          "TechnoWebShop.Web.ViewModels": "1.0.0"
         },
         "runtime": {
           "TechnoWebShop.Web.dll": {}
@@ -638,6 +639,14 @@
         },
         "compile": {
           "TechnoWebShop.Web.InputModels.dll": {}
+        }
+      },
+      "TechnoWebShop.Web.ViewModels/1.0.0": {
+        "runtime": {
+          "TechnoWebShop.Web.ViewModels.dll": {}
+        },
+        "compile": {
+          "TechnoWebShop.Web.ViewModels.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3992,6 +4001,11 @@
       "sha512": ""
     },
     "TechnoWebShop.Web.InputModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TechnoWebShop.Web.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

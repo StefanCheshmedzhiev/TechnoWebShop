@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechnoWebShop.Data;
@@ -26,9 +28,9 @@ namespace TechnoWebShop.Services
             };
 
             context.Products.Add(product);
-            context.SaveChangesAsync();
+           int result = await context.SaveChangesAsync();
 
-            return true;
+            return result > 0;
 
 
         }
@@ -40,8 +42,20 @@ namespace TechnoWebShop.Services
                 Name = productTypeServiceModel.Name
             };
             context.ProductTypes.Add(productType);
-            context.SaveChangesAsync();
-            return true;
+            int result = await context.SaveChangesAsync();
+
+            return result > 0;
+        }
+
+        public async Task <IQueryable<ProductTypeServiceModel>> GetAllProductTypes()
+        {
+            return  this.context.ProductTypes
+                .Select(productType => new ProductTypeServiceModel
+                {
+                    Id = productType.Id,
+                    Name = productType.Name
+                });
+                
         }
     }
 }

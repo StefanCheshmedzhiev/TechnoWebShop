@@ -5,3 +5,4 @@ D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\obj\Debug\netcoreapp
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.pdb
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.dll
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.InputModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.InputModels.csprojAssemblyReference.cache

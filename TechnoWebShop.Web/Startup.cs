@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 using TechnoWebShop.Data;
 using TechnoWebShop.Data.Models;
+using TechnoWebShop.Services;
 
 namespace TechnoWebShop.Web
 {
@@ -31,7 +32,7 @@ namespace TechnoWebShop.Web
             services.AddIdentity<WebShopUser, IdentityRole>()
                 .AddEntityFrameworkStores<TechnoWebShopDbContext>()
                 .AddDefaultTokenProviders();
-
+            services.AddTransient<IProductService, ProductService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -72,12 +73,14 @@ namespace TechnoWebShop.Web
                 app.UseMvc(routes =>
                 {
                     routes.MapRoute(
+                        name: "default",
+                        template: "{controller=Home}/{action=Index}/{id?}");
+
+                    routes.MapRoute(
                     name: "areas",
                     template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
-                    routes.MapRoute(
-                        name: "default",
-                        template: "{controller=Home}/{action=Index}/{id?}");
+                    
                 });
             }
         }

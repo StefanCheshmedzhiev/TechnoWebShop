@@ -5,3 +5,4 @@ D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.AssemblyInfo.cs
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.dll
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.csprojAssemblyReference.cache

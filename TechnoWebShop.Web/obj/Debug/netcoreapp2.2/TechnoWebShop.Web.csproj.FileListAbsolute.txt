@@ -46,3 +46,7 @@ D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\TechnoWe
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.csproj.CopyComplete
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.dll
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Administration\Views\Product\Create.cshtml.g.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Administration\Views\Product\Type\Create.cshtml.g.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.pdb

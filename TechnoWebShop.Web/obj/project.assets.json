@@ -4819,6 +4819,16 @@
         "runtime": {
           "bin/placeholder/TechnoWebShop.Web.InputModels.dll": {}
         }
+      },
+      "TechnoWebShop.Web.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/TechnoWebShop.Web.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechnoWebShop.Web.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -13192,6 +13202,11 @@
       "type": "project",
       "path": "../TechnoWebShop.Web.InputModels/TechnoWebShop.Web.InputModels.csproj",
       "msbuildProject": "../TechnoWebShop.Web.InputModels/TechnoWebShop.Web.InputModels.csproj"
+    },
+    "TechnoWebShop.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../TechnoWebShop.Web.ViewModels/TechnoWebShop.Web.ViewModels.csproj",
+      "msbuildProject": "../TechnoWebShop.Web.ViewModels/TechnoWebShop.Web.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13202,7 +13217,8 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.4",
       "TechnoWebShop.Data >= 1.0.0",
       "TechnoWebShop.Services >= 1.0.0",
-      "TechnoWebShop.Web.InputModels >= 1.0.0"
+      "TechnoWebShop.Web.InputModels >= 1.0.0",
+      "TechnoWebShop.Web.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -13243,6 +13259,9 @@
             },
             "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web.InputModels\\TechnoWebShop.Web.InputModels.csproj": {
               "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web.InputModels\\TechnoWebShop.Web.InputModels.csproj"
+            },
+            "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web.ViewModels\\TechnoWebShop.Web.ViewModels.csproj": {
+              "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web.ViewModels\\TechnoWebShop.Web.ViewModels.csproj"
             }
           }
         }
