@@ -20,11 +20,13 @@ namespace TechnoWebShop.Services
         }
         public async Task<bool> Create(ProductServiceModel productServiceModel)
         {
+            ProductType productTypeFromDb = context.ProductTypes.SingleOrDefault(productType => productType.Name == productServiceModel.ProductType.Name);
             Product product = new Product
             {
                 Name = productServiceModel.Name,
                 Price = productServiceModel.Price,
-                ManufacturedOn = productServiceModel.ManufacturedOn
+                ManufacturedOn = productServiceModel.ManufacturedOn,
+                ProductType = productTypeFromDb
             };
 
             context.Products.Add(product);

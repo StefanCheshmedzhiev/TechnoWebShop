@@ -13,10 +13,12 @@ namespace TechnoWebShop.Web.Areas.Administration.Controllers
     public class ProductController : AdminController
     {
         private readonly IProductService productService;
+        private readonly ICloudinaryService cloudinaryService;
 
-        public ProductController(IProductService productService)
+        public ProductController(IProductService productService, ICloudinaryService cloudinaryService)
         {
             this.productService = productService;
+            this.cloudinaryService = cloudinaryService;
 
         }
 
@@ -59,6 +61,10 @@ namespace TechnoWebShop.Web.Areas.Administration.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(ProductCreateInputModel productCreateInputModel)
         {
+         
+            string pictureUrl = await this.cloudinaryService.UploadPictureAsync(
+                productCreateInputModel.Picture,
+                productCreateInputModel.Name);
             ProductServiceModel productServiceModel = new ProductServiceModel
             {
                 Name = productCreateInputModel.Name,
@@ -67,7 +73,8 @@ namespace TechnoWebShop.Web.Areas.Administration.Controllers
                 ProductType = new ProductTypeServiceModel
                 {
                     Name = productCreateInputModel.ProductType
-                }
+                },
+                Picture = null
             };
             await this.productService.Create(productServiceModel);
             return this.Redirect("/");
