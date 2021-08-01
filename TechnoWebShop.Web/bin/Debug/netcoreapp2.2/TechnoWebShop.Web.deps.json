@@ -24,12 +24,15 @@
     ".NETCoreApp,Version=v2.2": {
       "TechnoWebShop.Web/1.0.0": {
         "dependencies": {
+          "AutoMapper": "8.1.1",
+          "CloudinaryDotNet": "1.8.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.4",
           "TechnoWebShop.Data": "1.0.0",
           "TechnoWebShop.Services": "1.0.0",
+          "TechnoWebShop.Services.Mapping": "1.0.0",
           "TechnoWebShop.Web.InputModels": "1.0.0",
           "TechnoWebShop.Web.ViewModels": "1.0.0"
         },
@@ -38,6 +41,35 @@
         },
         "compile": {
           "TechnoWebShop.Web.dll": {}
+        }
+      },
+      "AutoMapper/8.1.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.1.1.0",
+            "fileVersion": "8.1.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "CloudinaryDotNet/1.8.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/CloudinaryDotNet.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/CloudinaryDotNet.dll": {}
         }
       },
       "EntityFramework/6.1.0": {
@@ -612,6 +644,7 @@
       },
       "TechnoWebShop.Services/1.0.0": {
         "dependencies": {
+          "CloudinaryDotNet": "1.8.0",
           "TechnoWebShop.Data": "1.0.0",
           "TechnoWebShop.Services.Models": "1.0.0"
         },
@@ -622,7 +655,22 @@
           "TechnoWebShop.Services.dll": {}
         }
       },
+      "TechnoWebShop.Services.Mapping/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "8.1.1"
+        },
+        "runtime": {
+          "TechnoWebShop.Services.Mapping.dll": {}
+        },
+        "compile": {
+          "TechnoWebShop.Services.Mapping.dll": {}
+        }
+      },
       "TechnoWebShop.Services.Models/1.0.0": {
+        "dependencies": {
+          "TechnoWebShop.Data.Models": "1.0.0",
+          "TechnoWebShop.Services.Mapping": "1.0.0"
+        },
         "runtime": {
           "TechnoWebShop.Services.Models.dll": {}
         },
@@ -632,7 +680,9 @@
       },
       "TechnoWebShop.Web.InputModels/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.2.0"
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "TechnoWebShop.Services.Mapping": "1.0.0",
+          "TechnoWebShop.Services.Models": "1.0.0"
         },
         "runtime": {
           "TechnoWebShop.Web.InputModels.dll": {}
@@ -642,6 +692,9 @@
         }
       },
       "TechnoWebShop.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "TechnoWebShop.Services.Models": "1.0.0"
+        },
         "runtime": {
           "TechnoWebShop.Web.ViewModels.dll": {}
         },
@@ -3728,6 +3781,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/8.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GKBliBukkLG0z/U0T4Jy+yEpr5bKDImQ9nEy/T8jqNulwNkWDjiEWa9TL4yCxIhleDbmVmw2xYSaJ3Eb2OcSUg==",
+      "path": "automapper/8.1.1",
+      "hashPath": "automapper.8.1.1.nupkg.sha512"
+    },
+    "CloudinaryDotNet/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jrxUPvVmdGL+8wDGQn4rBrRh7jKPDTqUW1kBj+fwmGdiMW5aBArQ3P2ErnYA84AQgvJnb2JwP3WTlwD2Yc/kdA==",
+      "path": "cloudinarydotnet/1.8.0",
+      "hashPath": "cloudinarydotnet.1.8.0.nupkg.sha512"
+    },
     "EntityFramework/6.1.0": {
       "type": "package",
       "serviceable": true,
@@ -3991,6 +4058,11 @@
       "sha512": ""
     },
     "TechnoWebShop.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TechnoWebShop.Services.Mapping/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -13,3 +13,5 @@ D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services\bin\Debug\netcoreapp2.2\Tec
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.csproj.CopyComplete
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.dll
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.pdb

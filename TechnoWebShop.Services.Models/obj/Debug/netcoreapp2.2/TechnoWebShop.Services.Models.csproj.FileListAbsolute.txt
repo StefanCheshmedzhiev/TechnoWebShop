@@ -5,3 +5,9 @@ D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\bin\Debug\netcoreapp
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Models.pdb
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.Models.dll
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.Models.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.Models.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.Models.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.Models.csprojAssemblyReference.cache
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Models\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.Models.csproj.CopyComplete

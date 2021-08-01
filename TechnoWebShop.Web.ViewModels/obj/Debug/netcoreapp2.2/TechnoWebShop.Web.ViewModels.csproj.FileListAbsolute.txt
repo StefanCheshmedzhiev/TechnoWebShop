@@ -6,3 +6,10 @@ D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.dll
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.pdb
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.csprojAssemblyReference.cache
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.Models.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Models.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Models.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Data.Models.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web.ViewModels\obj\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.csproj.CopyComplete

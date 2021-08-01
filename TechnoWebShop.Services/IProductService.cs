@@ -9,8 +9,17 @@ namespace TechnoWebShop.Services
 {
     public interface IProductService
     {
-        Task<IQueryable<ProductTypeServiceModel>> GetAllProductTypes();
+        IQueryable<ProductTypeServiceModel> GetAllProductTypes();
+
+        IQueryable<ProductServiceModel> GetAllProducts(string criteria = null);
+
+        Task<ProductServiceModel> GetById(string id);
+
         Task<bool> Create(ProductServiceModel productServiceModel);
+
+        Task<bool> Edit(string id, ProductServiceModel productServiceModel);
+
+        Task<bool> Delete(string id);
 
         Task<bool> CreateProductType(ProductTypeServiceModel productTypeServiceModel);
     }

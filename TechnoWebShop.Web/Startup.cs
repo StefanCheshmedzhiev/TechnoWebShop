@@ -9,9 +9,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
 using System.Linq;
+using System.Reflection;
 using TechnoWebShop.Data;
 using TechnoWebShop.Data.Models;
 using TechnoWebShop.Services;
+using TechnoWebShop.Services.Mapping;
+using TechnoWebShop.Services.Models;
+using TechnoWebShop.Web.InputModels;
+using TechnoWebShop.Web.ViewModels.Home.Index;
 
 namespace TechnoWebShop.Web
 {
@@ -64,6 +69,10 @@ namespace TechnoWebShop.Web
         {
             using (var serviceScope = app.ApplicationServices.CreateScope())
             {
+                AutoMapperConfig.RegisterMappings(
+                typeof(ProductCreateInputModel).GetTypeInfo().Assembly,
+                typeof(ProductHomeViewModel).GetTypeInfo().Assembly,
+                typeof(ProductServiceModel).GetTypeInfo().Assembly);
                 CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
                 CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.InvariantCulture;
                 using (var context = serviceScope.ServiceProvider.GetRequiredService<TechnoWebShopDbContext>())

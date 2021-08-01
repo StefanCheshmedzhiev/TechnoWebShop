@@ -1,0 +1,7 @@
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Mapping\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.deps.json
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Mapping\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Mapping\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.AssemblyInfoInputs.cache
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Mapping\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.AssemblyInfo.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Mapping\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Mapping\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.dll
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Services.Mapping\obj\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.pdb
