@@ -19,12 +19,11 @@ namespace TechnoWebShop.Web.Controllers
         {
             this.productService = productService;
         }
-
         public async Task<IActionResult> Index([FromQuery]string criteria = null)
         {
             if (this.User.Identity.IsAuthenticated)
             {
-                List<ProductHomeViewModel> products = await this.productService.GetAllProducts(criteria)
+                List<ProductHomeViewModel> products =  await this.productService.GetAllProducts(criteria)
                     .Select(product => new ProductHomeViewModel
                     {
                         Id = product.Id,
