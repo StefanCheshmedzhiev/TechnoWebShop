@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Stopify.Services.Models;
+
 using TechnoWebShop.Data;
 using TechnoWebShop.Data.Models;
 using TechnoWebShop.Services;
 using TechnoWebShop.Services.Mapping;
+using TechnoWebShop.Services.Models;
 
-namespace Stopify.Services
+namespace TechnoWebShop.Services
 {
     public class ReceiptService : IReceiptService
     {

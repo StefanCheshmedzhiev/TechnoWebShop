@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
+﻿
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Stopify.Web.ViewModels.Product.Delete;
+using Microsoft.EntityFrameworkCore;
 using TechnoWebShop.Services;
 using TechnoWebShop.Services.Mapping;
 using TechnoWebShop.Services.Models;
 using TechnoWebShop.Web.InputModels;
 using TechnoWebShop.Web.ViewModels;
+using TechnoWebShop.Web.ViewModels.Product.Delete;
 
 namespace TechnoWebShop.Web.Areas.Administration.Controllers
 {

@@ -60,7 +60,10 @@ namespace TechnoWebShop.Web
                 options.User.RequireUniqueEmail = true;
             });
             services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IOrderService, OrderService>();
+            services.AddTransient<IReceiptService, ReceiptService>();
             services.AddTransient<ICloudinaryService, CloudinaryService>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -95,6 +98,20 @@ namespace TechnoWebShop.Web
 
                         context.SaveChanges();
                     }
+                    if (!context.OrderStatuses.Any())
+                    {
+                        context.OrderStatuses.Add(new OrderStatus
+                        {
+                            Name = "Active"
+                        });
+
+                        context.OrderStatuses.Add(new OrderStatus
+                        {
+                            Name = "Completed"
+                        });
+
+                        context.SaveChanges();
+                    }
                 }
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
@@ -107,14 +124,14 @@ namespace TechnoWebShop.Web
                 app.UseMvc(routes =>
                 {
                     routes.MapRoute(
-                        name: "default",
-                        template: "{controller=Home}/{action=Index}/{id?}");
-
-                    routes.MapRoute(
                     name: "areas",
                     template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
-                    
+                    routes.MapRoute(
+                        name: "default",
+                        template: "{controller=Home}/{action=Index}/{id?}");
+
+
                 });
             }
         }

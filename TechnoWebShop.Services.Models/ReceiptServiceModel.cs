@@ -1,11 +1,12 @@
 ﻿
+using Stopify.Services.Models;
 using System;
 using System.Collections.Generic;
 using TechnoWebShop.Data.Models;
 using TechnoWebShop.Services.Mapping;
 using TechnoWebShop.Services.Models;
 
-namespace Stopify.Services.Models
+namespace TechnoWebShop.Services.Models
 {
     public class ReceiptServiceModel : IMapFrom<Receipt>
     {
@@ -17,6 +18,6 @@ namespace Stopify.Services.Models
 
         public string RecipientId { get; set; }
 
-        public StopifyUserServiceModel Recipient { get; set; }
+        public WebShopUserServiceModel Recipient { get; set; }
     }
 }

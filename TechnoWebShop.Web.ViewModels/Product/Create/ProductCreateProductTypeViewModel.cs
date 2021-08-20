@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Stopify.Web.ViewModels
+namespace TechnoWebShop.Web.ViewModels
 {
     public class ProductCreateProductTypeViewModel
     {

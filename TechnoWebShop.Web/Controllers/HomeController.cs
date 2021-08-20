@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TechnoWebShop.Services;
-using TechnoWebShop.Web.Models;
 using TechnoWebShop.Web.ViewModels.Home.Index;
 
 namespace TechnoWebShop.Web.Controllers
@@ -23,7 +21,7 @@ namespace TechnoWebShop.Web.Controllers
         {
             if (this.User.Identity.IsAuthenticated)
             {
-                List<ProductHomeViewModel> products =  await this.productService.GetAllProducts(criteria)
+                List<ProductHomeViewModel> products = await this.productService.GetAllProducts(criteria)
                     .Select(product => new ProductHomeViewModel
                     {
                         Id = product.Id,

@@ -1,9 +1,9 @@
 ﻿
-using Stopify.Services.Models;
 using System.Linq;
 using System.Threading.Tasks;
+using TechnoWebShop.Services.Models;
 
-namespace Stopify.Services
+namespace TechnoWebShop.Services
 {
     public interface IReceiptService
     {

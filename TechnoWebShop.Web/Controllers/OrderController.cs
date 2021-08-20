@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Stopify.Services;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -9,7 +8,7 @@ using TechnoWebShop.Services;
 using TechnoWebShop.Services.Mapping;
 using TechnoWebShop.Web.ViewModels.Order.Cart;
 
-namespace Stopify.Web.Controllers
+namespace TechnoWebShop.Web.Controllers
 {
     public class OrderController : Controller
     {

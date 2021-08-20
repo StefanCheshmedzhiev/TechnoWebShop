@@ -1,8 +1,9 @@
-﻿using Stopify.Services.Models;
+﻿using TechnoWebShop.Services.Models;
 using System;
 using TechnoWebShop.Data.Models;
 using TechnoWebShop.Services.Mapping;
 using TechnoWebShop.Services.Models;
+using Stopify.Services.Models;
 
 namespace TechnoWebShop.Services.Models
 {
@@ -20,7 +21,7 @@ namespace TechnoWebShop.Services.Models
 
         public string IssuerId { get; set; }
 
-        public StopifyUserServiceModel Issuer { get; set; }
+        public WebShopUserServiceModel Issuer { get; set; }
 
         public int StatusId { get; set; }
 

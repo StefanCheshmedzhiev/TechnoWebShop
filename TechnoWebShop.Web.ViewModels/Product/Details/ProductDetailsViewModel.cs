@@ -3,7 +3,7 @@ using System;
 using TechnoWebShop.Services.Mapping;
 using TechnoWebShop.Services.Models;
 
-namespace Stopify.Web.ViewModels
+namespace TechnoWebShop.Web.ViewModels
 {
     public class ProductDetailsViewModel : IMapFrom<ProductServiceModel>
     {
