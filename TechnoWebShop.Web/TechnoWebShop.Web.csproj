@@ -23,4 +23,9 @@
     <ProjectReference Include="..\TechnoWebShop.Web.ViewModels\TechnoWebShop.Web.ViewModels.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Views\Order\" />
+  </ItemGroup>
+
 </Project>

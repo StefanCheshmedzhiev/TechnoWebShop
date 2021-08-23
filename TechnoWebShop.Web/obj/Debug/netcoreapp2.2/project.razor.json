@@ -1882,6 +1882,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Administration\\Views\\Product\\Delete.cshtml",
+      "TargetPath": "Areas\\Administration\\Views\\Product\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -1917,8 +1922,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Administration\\Views\\Product\\Edit.cshtml",
+      "TargetPath": "Areas\\Administration\\Views\\Product\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Views\\Product\\Details.cshtml",
+      "TargetPath": "Views\\Product\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1929,6 +1944,11 @@
     {
       "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Views\\Order\\Cart.cshtml",
+      "TargetPath": "Views\\Order\\Cart.cshtml",
       "FileKind": "mvc"
     },
     {

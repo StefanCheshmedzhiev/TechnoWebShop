@@ -52,3 +52,7 @@ D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\bin\Debug\netcoreapp2.2\TechnoWe
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\bin\Debug\netcoreapp2.2\TechnoWebShop.Web.ViewModels.pdb
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.dll
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\bin\Debug\netcoreapp2.2\TechnoWebShop.Services.Mapping.pdb
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Administration\Views\Product\Delete.cshtml.g.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Administration\Views\Product\Edit.cshtml.g.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Order\Cart.cshtml.g.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
