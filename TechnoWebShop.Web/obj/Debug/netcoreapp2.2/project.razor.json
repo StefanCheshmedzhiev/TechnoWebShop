@@ -1907,6 +1907,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Views\\Receipt\\Profile.cshtml",
+      "TargetPath": "Views\\Receipt\\Profile.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
       "FileKind": "mvc"
@@ -1934,6 +1939,11 @@
     {
       "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Views\\Product\\Details.cshtml",
       "TargetPath": "Views\\Product\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Web\\Views\\Receipt\\Details.cshtml",
+      "TargetPath": "Views\\Receipt\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
