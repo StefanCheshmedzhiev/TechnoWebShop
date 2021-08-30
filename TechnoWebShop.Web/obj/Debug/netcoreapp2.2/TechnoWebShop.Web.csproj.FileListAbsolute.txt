@@ -56,3 +56,5 @@ D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Ar
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Areas\Administration\Views\Product\Edit.cshtml.g.cs
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Order\Cart.cshtml.g.cs
 D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Product\Details.cshtml.g.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Receipt\Details.cshtml.g.cs
+D:\Source\Repos\TechnoWebShop\TechnoWebShop.Web\obj\Debug\netcoreapp2.2\Razor\Views\Receipt\Profile.cshtml.g.cs
