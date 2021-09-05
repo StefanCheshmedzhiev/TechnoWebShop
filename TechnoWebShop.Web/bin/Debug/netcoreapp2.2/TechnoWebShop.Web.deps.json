@@ -33,6 +33,7 @@
           "TechnoWebShop.Data": "1.0.0",
           "TechnoWebShop.Services": "1.0.0",
           "TechnoWebShop.Services.Mapping": "1.0.0",
+          "TechnoWebShop.Services.Models": "1.0.0",
           "TechnoWebShop.Web.InputModels": "1.0.0",
           "TechnoWebShop.Web.ViewModels": "1.0.0"
         },

@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\TechnoWebShop.Data\TechnoWebShop.Data.csproj" />
     <ProjectReference Include="..\TechnoWebShop.Services.Mapping\TechnoWebShop.Services.Mapping.csproj" />
+    <ProjectReference Include="..\TechnoWebShop.Services.Models\TechnoWebShop.Services.Models.csproj" />
     <ProjectReference Include="..\TechnoWebShop.Services\TechnoWebShop.Services.csproj" />
     <ProjectReference Include="..\TechnoWebShop.Web.InputModels\TechnoWebShop.Web.InputModels.csproj" />
     <ProjectReference Include="..\TechnoWebShop.Web.ViewModels\TechnoWebShop.Web.ViewModels.csproj" />

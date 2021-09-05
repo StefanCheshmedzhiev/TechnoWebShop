@@ -1,0 +1,443 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Tests\\TechnoWebShop.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj",
+        "projectName": "TechnoWebShop.Data.Models",
+        "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data\\TechnoWebShop.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data\\TechnoWebShop.Data.csproj",
+        "projectName": "TechnoWebShop.Data",
+        "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data\\TechnoWebShop.Data.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj",
+        "projectName": "TechnoWebShop.Services.Mapping",
+        "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj",
+        "projectName": "TechnoWebShop.Services.Models",
+        "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj"
+              },
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services\\TechnoWebShop.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services\\TechnoWebShop.Services.csproj",
+        "projectName": "TechnoWebShop.Services",
+        "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services\\TechnoWebShop.Services.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data\\TechnoWebShop.Data.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data\\TechnoWebShop.Data.csproj"
+              },
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Tests\\TechnoWebShop.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Tests\\TechnoWebShop.Tests.csproj",
+        "projectName": "TechnoWebShop.Tests",
+        "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Tests\\TechnoWebShop.Tests.csproj",
+        "packagesPath": "C:\\Users\\Stefan\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Stefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data.Models\\TechnoWebShop.Data.Models.csproj"
+              },
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data\\TechnoWebShop.Data.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Data\\TechnoWebShop.Data.csproj"
+              },
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj"
+              },
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj"
+              },
+              "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services\\TechnoWebShop.Services.csproj": {
+                "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services\\TechnoWebShop.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

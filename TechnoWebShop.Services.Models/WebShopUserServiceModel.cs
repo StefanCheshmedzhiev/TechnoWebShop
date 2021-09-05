@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using TechnoWebShop.Data.Models;
 using TechnoWebShop.Services.Mapping;
-using TechnoWebShop.Services.Models;
 
-namespace Stopify.Services.Models
+namespace TechnoWebShop.Services.Models
 {
     public class WebShopUserServiceModel : IdentityUser, IMapFrom<WebShopUser>
     {

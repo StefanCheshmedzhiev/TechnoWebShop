@@ -24,10 +24,10 @@ namespace TechnoWebShop.Services
             Order orderFromDb = await this.context.Orders
                 .SingleOrDefaultAsync(order => order.Id == orderId);
 
-            if(orderFromDb == null || orderFromDb.Status.Name != "Active")
-            {
-                throw new ArgumentException(nameof(orderFromDb));
-            }
+            //if(orderFromDb == null || orderFromDb.Status.Name != "Active")
+            //{
+            //    throw new ArgumentException(nameof(orderFromDb));
+            //}
 
             orderFromDb.Status = await this.context.OrderStatuses
                 .SingleOrDefaultAsync(orderStatus => orderStatus.Name == "Completed");

@@ -2,8 +2,7 @@
 using System;
 using TechnoWebShop.Data.Models;
 using TechnoWebShop.Services.Mapping;
-using TechnoWebShop.Services.Models;
-using Stopify.Services.Models;
+
 
 namespace TechnoWebShop.Services.Models
 {

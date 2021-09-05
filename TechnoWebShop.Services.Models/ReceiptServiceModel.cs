@@ -1,10 +1,9 @@
 ﻿
-using Stopify.Services.Models;
 using System;
 using System.Collections.Generic;
 using TechnoWebShop.Data.Models;
 using TechnoWebShop.Services.Mapping;
-using TechnoWebShop.Services.Models;
+
 
 namespace TechnoWebShop.Services.Models
 {

@@ -13307,6 +13307,7 @@
       "TechnoWebShop.Data >= 1.0.0",
       "TechnoWebShop.Services >= 1.0.0",
       "TechnoWebShop.Services.Mapping >= 1.0.0",
+      "TechnoWebShop.Services.Models >= 1.0.0",
       "TechnoWebShop.Web.InputModels >= 1.0.0",
       "TechnoWebShop.Web.ViewModels >= 1.0.0"
     ]
@@ -13346,6 +13347,9 @@
             },
             "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj": {
               "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Mapping\\TechnoWebShop.Services.Mapping.csproj"
+            },
+            "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj": {
+              "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services.Models\\TechnoWebShop.Services.Models.csproj"
             },
             "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services\\TechnoWebShop.Services.csproj": {
               "projectPath": "D:\\Source\\Repos\\TechnoWebShop\\TechnoWebShop.Services\\TechnoWebShop.Services.csproj"

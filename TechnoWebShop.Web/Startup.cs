@@ -76,43 +76,50 @@ namespace TechnoWebShop.Web
                 typeof(ProductCreateInputModel).GetTypeInfo().Assembly,
                 typeof(ProductHomeViewModel).GetTypeInfo().Assembly,
                 typeof(ProductServiceModel).GetTypeInfo().Assembly);
+
                 CultureInfo.DefaultThreadCurrentCulture = CultureInfo.InvariantCulture;
                 CultureInfo.DefaultThreadCurrentUICulture = CultureInfo.InvariantCulture;
-                using (var context = serviceScope.ServiceProvider.GetRequiredService<TechnoWebShopDbContext>())
+
+                using (var service = app.ApplicationServices.CreateScope())
                 {
-                    context.Database.EnsureCreated();
-
-                    if (!context.Roles.Any())
+                    using (var context = service.ServiceProvider.GetRequiredService<TechnoWebShopDbContext>())
                     {
-                        context.Roles.Add(new IdentityRole
-                        {
-                            Name = "Admin",
-                            NormalizedName = "ADMIN"
-                        });
+                        context.Database.EnsureCreated();
 
-                        context.Roles.Add(new IdentityRole
+                        if (!context.Roles.Any())
                         {
-                            Name = "User",
-                            NormalizedName = "USER"
-                        });
+                            context.Roles.Add(new IdentityRole
+                            {
+                                Name = "Admin",
+                                NormalizedName = "ADMIN"
+                            });
 
-                        context.SaveChanges();
-                    }
-                    if (!context.OrderStatuses.Any())
-                    {
-                        context.OrderStatuses.Add(new OrderStatus
+                            context.Roles.Add(new IdentityRole
+                            {
+                                Name = "User",
+                                NormalizedName = "USER"
+                            });
+
+                            context.SaveChanges();
+                        }
+
+                        if (!context.OrderStatuses.Any())
                         {
-                            Name = "Active"
-                        });
+                            context.OrderStatuses.Add(new OrderStatus
+                            {
+                                Name = "Active"
+                            });
 
-                        context.OrderStatuses.Add(new OrderStatus
-                        {
-                            Name = "Completed"
-                        });
+                            context.OrderStatuses.Add(new OrderStatus
+                            {
+                                Name = "Completed"
+                            });
 
-                        context.SaveChanges();
+                            context.SaveChanges();
+                        }
                     }
                 }
+
                 app.UseDeveloperExceptionPage();
                 app.UseDatabaseErrorPage();
                 app.UseHsts();
@@ -124,14 +131,12 @@ namespace TechnoWebShop.Web
                 app.UseMvc(routes =>
                 {
                     routes.MapRoute(
-                    name: "areas",
-                    template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                        name: "areas",
+                        template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
                     routes.MapRoute(
                         name: "default",
                         template: "{controller=Home}/{action=Index}/{id?}");
-
-
                 });
             }
         }
